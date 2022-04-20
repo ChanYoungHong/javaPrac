@@ -3,9 +3,14 @@ package StandardOfJavaExercise.day3;
 class Exercise3_9 {
     public static void main(String[] args) {
 
-        char ch = 'z';
-        boolean b = ( /* (1) */ );
-        System.out.println(b);
+        String exam = "1";
+        String b = "[a-zA-Z0-9]";
+
+        if (exam.matches(b)) {
+            System.out.println("true");
+        }else{
+            System.out.println("false");
+        }
 
     }
 }
