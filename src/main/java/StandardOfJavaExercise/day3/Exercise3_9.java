@@ -3,7 +3,7 @@ package StandardOfJavaExercise.day3;
 class Exercise3_9 {
     public static void main(String[] args) {
 
-        String exam = "1";
+        String exam = "z";
         String b = "[a-zA-Z0-9]";
 
         if (exam.matches(b)) {
